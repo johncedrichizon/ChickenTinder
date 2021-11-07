@@ -16,6 +16,9 @@
             android:name=".join_page"
             android:exported="false" />
         <activity
+            android:name=".HostRoom"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
