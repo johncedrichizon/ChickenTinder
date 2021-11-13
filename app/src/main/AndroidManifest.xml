@@ -10,14 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChickenTinder">
         <activity
-            android:name=".host_room"
-            android:exported="false" />
-        <activity
             android:name=".join_page"
             android:exported="false" />
-        <activity
-            android:name=".HostRoom"
-            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

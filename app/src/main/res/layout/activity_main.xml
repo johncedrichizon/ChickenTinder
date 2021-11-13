@@ -29,7 +29,7 @@
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:src="@drawable/tinder">
+            android:src="@drawable/CRtinder">
         </ImageView>
     </LinearLayout>
 
