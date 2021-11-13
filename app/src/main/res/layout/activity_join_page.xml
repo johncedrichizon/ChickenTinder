@@ -9,21 +9,21 @@
     android:gravity="center">
 
     <EditText
-        android:layout_width="100dp"
+        android:layout_width="150dp"
         android:layout_height="45dp"
         android:layout_gravity="center"
         android:hint="Code here"
         android:inputType="number"
+        android:textAlignment="center"
         android:background="@drawable/border1">
 
     </EditText>
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:text="Join"
-        android:id="@+id/btn_join">
-
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Room"
+        android:id="@+id/btnJoinHost">
     </Button>
 
 </LinearLayout>

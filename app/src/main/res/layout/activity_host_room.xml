@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HostRoom"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room Code: ">
+    </TextView>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"></Space>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border2"
+        android:text="Current Location: "
+        android:paddingHorizontal="120dp"
+        android:paddingVertical="15dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border2"
+        android:text="Category/Search"
+        android:paddingHorizontal="120dp"
+        android:paddingVertical="15dp">
+    </TextView>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"></Space>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Players: ">
+    </TextView>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"></Space>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/btnStart">
+    </Button>
+
+
+
+</LinearLayout>

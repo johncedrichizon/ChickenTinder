@@ -28,8 +28,7 @@
 
         <ImageView
             android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:src="@drawable/CRtinder">
+            android:layout_height="70dp">
         </ImageView>
     </LinearLayout>
 
@@ -40,14 +39,15 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Host Room">
+        android:text="Host Room"
+        android:id="@+id/btnMainHost">
     </Button>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Join Room"
-        android:id="@+id/jr_main">
+        android:id="@+id/btnMainJoin">
     </Button>
 
 </LinearLayout>
