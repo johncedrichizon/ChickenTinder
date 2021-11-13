@@ -58,6 +58,4 @@
         android:id="@+id/btnStart">
     </Button>
 
-
-
 </LinearLayout>
