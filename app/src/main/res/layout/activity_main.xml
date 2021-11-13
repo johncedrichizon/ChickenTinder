@@ -26,10 +26,7 @@
             android:textSize="30sp">
         </TextView>
 
-        <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:src="@drawable/fire"></ImageView>
+
     </LinearLayout>
 
     <Space
